@@ -184,6 +184,7 @@ img {
     display: grid;
     grid-template-rows: repeat(2, 40rem);
     row-gap: var(--separacion);
+    padding-bottom: 10rem;
 }
 @media (min-width: 768px)   {
     .sobre-tech-grid {
@@ -196,14 +197,14 @@ img {
 }
 
 .texto-sobre-tech {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
     grid-row: 2 / 3;
     color: var(--blanco);
+    margin-top: 5rem;
 }
 @media (min-width: 768px)   {
     .texto-sobre-tech {
         padding: 0;
+        margin-top: 0;
     }
 }
 
