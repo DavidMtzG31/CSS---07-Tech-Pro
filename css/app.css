@@ -322,7 +322,6 @@ img {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%, 70rem;
-    margin-bottom: var(--separacion);
 
 }
 @media (min-width: 768px)   {
@@ -330,7 +329,7 @@ img {
         background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0%), url(../img/newsletter.jpg);
         background-position: center, -21rem 0rem;
         background-size: 100%, 100rem;
-        padding: 10rem 0;
+        
     }
 }
 @media (min-width: 1600px)   {
@@ -376,4 +375,15 @@ img {
     font-size: 2rem;
     font-weight: 900;
     border: none;
+}
+
+
+/* Footer */
+.footer p {
+    text-align: center;
+    font-family: var(--fuenteSecundaria);
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--primario);
+    padding: 2rem 0;
 }
