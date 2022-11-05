@@ -211,7 +211,7 @@ img {
 }
 @media (min-width: 768px)   {
     .texto-sobre-tech p{
-        text-align: center;
+        text-align: justify;
     }
 }
 
